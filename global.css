@@ -1,0 +1,55 @@
+/* ============================================================
+ *  GLOBALE FARB-VARIABLEN
+ *  Alle Farben des Projekts zentral definiert.
+ *  Zum Anpassen des UI-Designs nur diese Datei ändern.
+ * ============================================================ */
+
+:root {
+     /* ── Basis RGB-Werte (für rgba()-Nutzung) ────────────── */
+     --white-rgb: 255, 255, 255;
+     --black-rgb: 0, 0, 0;
+
+     /* ── Primärfarbe / Akzent (Lila) ─────────────────────── */
+     --color-accent: #a78bfa;
+     --accent-rgb: 139, 92, 246;
+     --accent-light-rgb: 167, 139, 250;
+
+     /* ── Status-Farben ───────────────────────────────────── */
+     --color-error: #f87171;
+     --color-error-rgb: 248, 113, 113;
+     --color-success: #4ade80;
+     --color-success-rgb: 74, 222, 128;
+     --color-warning: #fbbf24;
+     --color-warning-rgb: 251, 191, 36;
+     --color-info: #60a5fa;
+
+     /* ── Textfarben ──────────────────────────────────────── */
+     --color-white: #ffffff;
+     --color-text-secondary: #e0e0e0;
+     --color-text-near-white: #f2f2f2;
+
+     /* ── Hintergrund-Basis (RGB für Overlays) ────────────── */
+     --bg-dark-1-rgb: 10, 10, 18;
+     --bg-dark-2-rgb: 20, 15, 35;
+
+     /* ── Spezifische UI-Farben ───────────────────────────── */
+     --color-select-bg: #1a1a2e;
+     --color-hp: #27ae60;
+     --color-armour: #3498db;
+     --color-equipped-rgb: 245, 197, 66;
+     --hud-accent: #181818;
+
+     /* ── Hitmarker-Farben ────────────────────────────────── */
+     --hitmarker-hit: #ffffff;
+     --hitmarker-headshot: #ff4444;
+     --hitmarker-kill: #ffcc00;
+
+     /* ── Tracer ──────────────────────────────────────────── */
+     --tracer-color: #ff0000;
+
+     /* ── Schatten ────────────────────────────────────────── */
+     --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4);
+     --shadow-panel: 0 20px 60px rgba(0, 0, 0, 0.6);
+     --shadow-popup: 0 20px 60px rgba(0, 0, 0, 0.7);
+     --shadow-tooltip: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
